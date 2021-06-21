@@ -1,0 +1,61 @@
+<head>
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 10px 5px;
+        }
+
+        th {
+            background-color: purple;
+        }
+
+        tr:nth-child(even)>td {
+            background: #00800000;
+        }
+
+        tr>th:nth-child(3),
+        tr>td:nth-child(3) {
+            background: green;
+            text-align: right;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <table style="width: 100%; border: 1px solid;">
+        <tr>
+            <th>이름</th>
+            <th>연락처</th>
+            <th>email</th>
+        </tr>
+        <tr>
+            <td rowspan="3">rnwkdud</td>
+            <td>0000000</td>
+            <td>skdjflskjdf</td>
+        </tr>
+        <tr>
+            <td>0000000</td>
+            <td>skdjflskjdf</td>
+        </tr>
+        <tr>
+            <td>0000000</td>
+            <td>skdjflskjdf</td>
+        </tr>
+        <tr>
+            <td>학생</td>
+            <td colspan="2"> 55</td>
+
+        </tr>
+    </table>
+</body>
